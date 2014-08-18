@@ -43,16 +43,3 @@
   -o-user-select: none;
   user-select: none;
 }
-
-@media screen and (min-width: 40em) {
-  .js .nav-collapse {
-    position: relative;
-  }
-  .js .nav-collapse.closed,
-  .js .nav-collapse.closed .dropdown ul {
-    max-height: none;
-  }
-  .nav-toggle {
-    display: none;
-  }
-}
